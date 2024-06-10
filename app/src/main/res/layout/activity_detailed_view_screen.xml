@@ -16,7 +16,7 @@
     <TextView
         android:id="@+id/infoTextView"
         android:layout_width="match_parent"
-        android:layout_height="61dp"
+        android:layout_height="185dp"
         android:layout_gravity="center"
         android:text="Information"
         android:textAlignment="center"
@@ -26,7 +26,7 @@
     <TextView
         android:id="@+id/avgTempTextView"
         android:layout_width="match_parent"
-        android:layout_height="61dp"
+        android:layout_height="133dp"
         android:layout_gravity="center"
         android:text="Average Temperature"
         android:textAlignment="center"

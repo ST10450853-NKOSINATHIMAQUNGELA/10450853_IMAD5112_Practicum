@@ -54,8 +54,12 @@ class MainScreen : AppCompatActivity() {
 
         detailedViewButton.setOnClickListener {
             val intent = Intent(this, DetailedViewScreen::class.java)
+            intent.putStringArrayListExtra("weekDays", weekDay)
+            intent.putIntegerArrayListExtra("minTemperatureList", minTemperatureList)
+            intent.putIntegerArrayListExtra("maxTemperatureList", maxTemperatureList)
+            intent.putStringArrayListExtra("weatherConditionList", weatherConditionList)
             startActivity(intent)
-            finish()
+
         }
 
 
