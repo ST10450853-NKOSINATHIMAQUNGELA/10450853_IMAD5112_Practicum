@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D6D6"
+    android:background="@drawable/weather2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -18,7 +18,7 @@
         android:layout_height="156dp"
         android:text="Weather App"
         android:textAlignment="center"
-        android:textColor="#0742A8"
+        android:textColor="#07123E"
         android:textSize="60sp" />
 
     <Space
@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         android:text="Nkosinathi Maqungela"
         android:textAlignment="center"
-        android:textColor="#0742A8" />
+        android:textColor="#07123E" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,11 +41,11 @@
         android:layout_gravity="center"
         android:text="ST10450853"
         android:textAlignment="center"
-        android:textColor="#0742A8" />
+        android:textColor="#07123E" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="152dp" />
+        android:layout_height="74dp" />
 
     <TextView
         android:id="@+id/welcomeTextView"
@@ -53,7 +53,7 @@
         android:layout_height="39dp"
         android:layout_gravity="center"
         android:text="WELCOME TO THE WEATHER APP"
-        android:textColor="#0742A8"
+        android:textColor="#07123E"
         android:textSize="20sp" />
 
     <Space
@@ -66,7 +66,7 @@
         android:layout_height="31dp"
         android:text="Please click the button below to check the forecast"
         android:textAlignment="center"
-        android:textColor="#0742A8" />
+        android:textColor="#07123E" />
 
     <Space
         android:layout_width="match_parent"
@@ -74,9 +74,31 @@
 
     <Button
         android:id="@+id/homePageButton"
-        android:layout_width="201dp"
+        android:layout_width="231dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:text="Button" />
+        android:text="Home Page"
+        android:textColor="#07123E" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click the button below to exit the application"
+        android:textAlignment="center"
+        android:textColor="#07123E"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Exit"
+        android:textColor="#07123E" />
 
 </LinearLayout>

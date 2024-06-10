@@ -1,5 +1,6 @@
 package com.example.a10450853_imad5112_practicum
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -19,9 +20,16 @@ class MainActivity : AppCompatActivity() {
         }
 
         val homePageButton: Button = findViewById(R.id.homePageButton)
+        val exitButton: Button = findViewById(R.id.exitButton)
 
+        homePageButton.setOnClickListener {
+            val intent = Intent(this, MainScreen::class.java)
+            startActivity(intent)
+            finish()
+        }
 
+        exitButton.setOnClickListener {
+            finish() }
 
         }
     }
-}
