@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/weather2"
+    android:background="@drawable/weather3"
     android:orientation="vertical"
     tools:context=".DetailedViewScreen">
 
@@ -20,7 +20,7 @@
         android:layout_gravity="center"
         android:text="Information"
         android:textAlignment="center"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_gravity="center"
         android:text="Average Temperature"
         android:textAlignment="center"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <Space
@@ -43,5 +43,5 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:text="Main menu"
-        android:textColor="#07123E" />
+        android:textColor="#FFFFFF" />
 </LinearLayout>

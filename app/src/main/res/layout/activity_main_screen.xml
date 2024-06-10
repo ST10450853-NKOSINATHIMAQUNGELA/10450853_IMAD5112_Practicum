@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/weather2"
+    android:background="@drawable/weather3"
     android:orientation="vertical"
     tools:context=".MainScreen">
 
@@ -19,7 +19,7 @@
         android:layout_height="47dp"
         android:layout_gravity="center"
         android:text="Please enter the day of the week"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_height="47dp"
         android:layout_gravity="center"
         android:text="Please enter the Min temperature"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <EditText
@@ -64,7 +64,7 @@
         android:layout_height="47dp"
         android:layout_gravity="center"
         android:text="Please enter the Max temperature"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <EditText
@@ -87,7 +87,7 @@
         android:layout_height="47dp"
         android:layout_gravity="center"
         android:text="Please enter the weather condition"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <EditText
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|left"
             android:text="Clear"
-            android:textColor="#07123E" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/detailedViewScreen"
@@ -129,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:text="Detailed View"
-            android:textColor="#07123E" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/exitButtonSecondScreen"
@@ -137,6 +137,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
             android:text="Exit"
-            android:textColor="#07123E" />
+            android:textColor="#FFFFFF" />
     </FrameLayout>
 </LinearLayout>

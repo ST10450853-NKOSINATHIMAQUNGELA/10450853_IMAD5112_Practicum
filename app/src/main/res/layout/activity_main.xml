@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/weather2"
+    android:background="@drawable/weather3"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -18,7 +18,7 @@
         android:layout_height="156dp"
         android:text="Weather App"
         android:textAlignment="center"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="60sp" />
 
     <Space
@@ -32,7 +32,7 @@
         android:layout_gravity="center"
         android:text="Nkosinathi Maqungela"
         android:textAlignment="center"
-        android:textColor="#07123E" />
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,7 +41,7 @@
         android:layout_gravity="center"
         android:text="ST10450853"
         android:textAlignment="center"
-        android:textColor="#07123E" />
+        android:textColor="#FFFFFF" />
 
     <Space
         android:layout_width="match_parent"
@@ -53,7 +53,7 @@
         android:layout_height="39dp"
         android:layout_gravity="center"
         android:text="WELCOME TO THE WEATHER APP"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
     <Space
@@ -66,7 +66,7 @@
         android:layout_height="31dp"
         android:text="Please click the button below to check the forecast"
         android:textAlignment="center"
-        android:textColor="#07123E" />
+        android:textColor="#FFFFFF" />
 
     <Space
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:text="Home Page"
-        android:textColor="#07123E" />
+        android:textColor="#FFFFFF" />
 
     <Space
         android:layout_width="match_parent"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:text="Click the button below to exit the application"
         android:textAlignment="center"
-        android:textColor="#07123E"
+        android:textColor="#FFFFFF"
         android:textSize="16sp" />
 
     <Button
@@ -99,6 +99,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Exit"
-        android:textColor="#07123E" />
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>
