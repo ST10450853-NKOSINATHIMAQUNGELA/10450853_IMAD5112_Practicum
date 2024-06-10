@@ -27,9 +27,8 @@
         android:layout_width="242dp"
         android:layout_height="59dp"
         android:layout_gravity="center"
-        android:ems="10"
+        android:hint="eg. Thursday"
         android:inputType="text"
-        android:text="eg. Thursday"
         android:textColor="#88000000" />
 
     <Space
@@ -51,8 +50,8 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:ems="10"
+        android:hint="eg. 10"
         android:inputType="text"
-        android:text="eg. 10"
         android:textColor="#88000000" />
 
     <Space
@@ -74,8 +73,8 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:ems="10"
+        android:hint="eg. 20"
         android:inputType="text"
-        android:text="eg. 20"
         android:textColor="#88000000" />
 
     <Space
@@ -97,8 +96,8 @@
         android:layout_height="59dp"
         android:layout_gravity="center"
         android:ems="10"
+        android:hint="eg. Sunny"
         android:inputType="text"
-        android:text="eg. Sunny"
         android:textColor="#88000000" />
 
     <Space
